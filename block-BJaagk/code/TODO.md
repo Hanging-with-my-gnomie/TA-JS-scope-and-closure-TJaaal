@@ -7,7 +7,12 @@ function percentage(marks, total) {
 
 // Your code goes here
 ```
-
+let percentage = percent(marks,total){
+  return (marks * 100) / total;
+}
+let percentage = (marks,total) =>{
+  return (marks * 100) / total;
+}
 2. Write Function Declaration or Function Expression next to the function.
 
 ```js
@@ -16,7 +21,12 @@ function percentage(marks, total) {
 }
 // Your answer
 ```
-
+let percentage = percent(marks,total){
+  return (marks * 100) / total;
+}
+let percentage = (marks,total) =>{
+  return (marks * 100) / total;
+}
 ```js
 let percentage = function percentage(marks, total) {
   return (marks * 100) / total;
@@ -50,9 +60,9 @@ function add(a, b) {
   return a + b;
 }
 
-let five = add(2, 3); // Answer
-five = add; // Answer
-five = five(10, 11); // Answer
+let five = add(2, 3); // 5
+five = add; // 5
+five = five(10, 11); // 21
 five = function () {
   return 'Hello';
 }; // Answer
@@ -69,7 +79,7 @@ function hello() {
   console.log('Hello World!');
 }
 
-hello.user = 'Sam'; // valid or invalid
+hello.user = 'Sam'; // valid
 ```
 
 9. What is higher order function explain with an example.
