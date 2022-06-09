@@ -26,7 +26,7 @@ var userMessage = sayHelloToUser('Bran');
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./img/IMG20220609130331.jpg);
 
 2.
 
@@ -43,7 +43,7 @@ sayHi();
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./img/IMG20220609130833.jpg);
 
 3.
 
