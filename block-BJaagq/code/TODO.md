@@ -12,14 +12,14 @@ function change() {
   console.log(species);
 }
 
-console.log(species); // 1
+console.log(species); // vampire
 change();
-console.log(species); // 2
+console.log(species); // vampire
 ```
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./img/IMG20220610105417.jpg);
 
 - Create the execution context diagram
 - What will be the value of species on 1 and 2
@@ -47,7 +47,7 @@ topLevelFn();
 
 <!-- Put your image below -->
 
-![](./img/image-name.jpg)
+![](./img/IMG20220610105423.jpg);
 
 - Create the execution context diagram
 - What will be the value of 1 and 2
