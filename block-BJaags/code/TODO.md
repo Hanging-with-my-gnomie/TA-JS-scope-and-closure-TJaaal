@@ -14,7 +14,7 @@ function square(num) {
 let hundred = square(10);
 console.log(hundred);
 ```
-
+num= ""
 Create the execution context diagram of the following code line by line.
 
 ```js
@@ -26,6 +26,7 @@ var five = addFive(0);
 var ten = addFive(5);
 console.log(five, ten);
 ```
+num = undefined;
 
 Create the execution context diagram of the following code line by line.
 
