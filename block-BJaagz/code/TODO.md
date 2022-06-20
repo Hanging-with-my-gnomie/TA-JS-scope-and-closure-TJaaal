@@ -20,7 +20,8 @@ forEach(['Sam', 'Jon', 'Arya'], (name, i, arr) =>
 
 ```js
 function map() {
-  // Your code goes here
+  forEach(['Sam', 'Jon', 'Arya'], (name, i, arr) =>
+  console.log(name + name, i, arr)
 }
 
 map(['Sam', 'Jon', 'Arya'], (name) => name + name); // ['SamSam', 'JonJon', 'AryaArya']
