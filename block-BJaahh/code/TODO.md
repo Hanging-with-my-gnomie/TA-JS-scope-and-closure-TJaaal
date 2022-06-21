@@ -3,7 +3,11 @@
 1. Write a function called `multiplyBy` that takes a `number` as an argument and returns a function. Returned function takes another `number` as an argument and returns the multiplication of both the numbers.
 
 ```js
-// Your code goes here
+function multiplyBy(a){
+  return function(b){
+    return a*b;
+  }
+}
 
 const double = multiplyBy(2);
 const final = double(15); // final should be 30
@@ -12,7 +16,11 @@ const final = double(15); // final should be 30
 2. Write a function called `fullName` that takes a string `firstName` as an argument and returns a function. Returned function takes another string `lastName` as an argument and returns full name.
 
 ```js
-// Your code goes here
+function fullName(firstname){
+  return function(lastname){
+    console.log(`${firstname} ${lastname}`);
+  }
+}
 
 const name = fullName('Will');
 const final = name('Smith'); // final should be "Will Smith"
@@ -22,7 +30,9 @@ const final = name('Smith'); // final should be "Will Smith"
 
 ```js
 function isInBetween(a, b) {
-  // your code goes here
+  function(true){
+    if(a=>b)
+  }
 }
 
 const isChild = isInBetween(10, 100);
@@ -35,7 +45,7 @@ isChild(103); // false
 
 ```js
 function letsWishThem(greeting) {
-  // your code goes here
+  return function(message);
 }
 
 const callWithHey = letsWishThem('Hey');
