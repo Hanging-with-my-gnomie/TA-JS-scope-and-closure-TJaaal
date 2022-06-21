@@ -64,7 +64,13 @@ var nextMessage = sayHello('Test');
 <!-- Answer -->
 
 ```js
-// Your code goes here
+ username = undefined;
+ number;
+ function sayHello(name) {
+  return `Hello ${name}`;
+}
+message;
+nextMessage;
 ```
 
 3.
