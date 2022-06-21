@@ -33,6 +33,7 @@ function isInBetween(a, b) {
   function(true){
     if(a=>b)
   }
+  return true;
 }
 
 const isChild = isInBetween(10, 100);
