@@ -10,9 +10,9 @@ const lastName = 'Stark';
 var knownAs = 'no one';
 
 console.log(
-  window.firstName,
-  window.lastName,
-  window.knownAs
+  window.firstName,//undefined
+  window.lastName,//undefined
+  window.knownAs//no one
 );
 ```
 
@@ -27,7 +27,7 @@ function fullName(a, b) {
   return a + b;
 }
 
-console.log(window.fullName(firstName, lastName));
+console.log(window.fullName(firstName, lastName));//undefined
 ```
 
 3. Make a Execution Context Diagram for the following JS and write the output.
@@ -38,7 +38,7 @@ fucntion addOne(num){
 }
 var one = addOne(0);
 var two = addOne(1);
-console.log(one, two);
+console.log(one, two);//1,2
 ```
 
 4. Make a Execution Context Diagram for the following JS and write the output.
@@ -49,7 +49,7 @@ fucntion addOne(num){
   return num + 1;
 }
 var two = addOne(1);
-console.log(one, two);
+console.log(one, two);//1,2
 ```
 
 5. Make a Execution Context Diagram for the following JS and write the output.
@@ -60,7 +60,7 @@ fucntion addOne(num){
   return num + 1;
 }
 var two = addOne(1);
-console.log(two);
+console.log(two);//2
 ```
 
 6. Make a Execution Context Diagram for the following JS and write the output.
@@ -71,7 +71,7 @@ const addOne = (num) => {
   return num + 1;
 };
 var two = addOne(1);
-console.log(two);
+console.log(two);//2
 ```
 
 7. Make a Execution Context Diagram for the following JS and write the output.
@@ -82,7 +82,7 @@ const addOne = (num) => {
   return num + 1;
 };
 var two = addOne(1);
-console.log(two);
+console.log(two);//2
 ```
 
 8. What will be the output of the following
@@ -95,7 +95,7 @@ function isAwesome() {
   }
   console.log(awesome);
 }
-isAwesome();
+isAwesome();//true
 ```
 
 9. What will be the output of the following
@@ -108,7 +108,7 @@ function isAwesome() {
   }
   console.log(awesome);
 }
-isAwesome();
+isAwesome();//undefined
 ```
 
 10. What will be the output of the following
@@ -121,7 +121,7 @@ function isAwesome() {
   }
   console.log(awesome);
 }
-isAwesome();
+isAwesome();//undefined
 ```
 
 11. What will be the output of the following
@@ -135,7 +135,7 @@ function fullName(a, b) {
   return a + b;
 }
 const name = fullName(firstName, lastName);
-console.log(name);
+console.log(name);//no one
 ```
 
 12. Guess the output of the code below with a reason.
@@ -146,7 +146,7 @@ function sayHello() {
 }
 sayHello();
 
-console.log(name);
+console.log(name);//Arya Stark
 ```
 
 13. Guess the output of the code below with a reason.
